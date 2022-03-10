@@ -81,7 +81,7 @@ button,
 .fa-spin { animation: fa-spin 2s infinite linear; }
 .fa-cog:before { content: "\f013"; }
 @font-face { font-family: "Pe-icon-7-stroke"; src: url(../fonts/Pe-icon-7-stroke.eot); src: url(../fonts/Pe-icon-7-stroke.woff) format("woff"),url(../fonts/Pe-icon-7-stroke.svg) format("svg"); }
-[class^="pe-7s-"], [class*=" pe-7s-"] { display: inline-block; font-family: Pe-icon-7-stroke;font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .pe-7s-user:before { content: ""; }
+[class^="pe-7s-"], [class*=" pe-7s-"] { display: inline-block; font-family: "Pe-icon-7-stroke", sans-serif;font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .pe-7s-user:before { content: ""; }
 .pe-7s-study:before { content: ""; }
 .ui-theme-settings { position: fixed; z-index: 155; right: -30px; top: 0; height: 100vh; transform: translate(500px); transition: all 0.2s; box-shadow: -0.46875rem 0 2.1875rem rgba(4, 9, 20, 0.03), -0.9375rem 0 1.40625rem rgba(4, 9, 20, 0.03), -0.25rem 0 0.53125rem rgba(4, 9, 20, 0.05), -0.125rem 0 0.1875rem rgba(4, 9, 20, 0.03); }
 .card.mb-3 { margin-bottom: 30px !important; }
