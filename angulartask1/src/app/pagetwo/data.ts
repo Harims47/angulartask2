@@ -8,7 +8,7 @@
       'Role': 'Angular Developer',
       'Priority': 'High',
       'experience': '1',
-      'RankId': 1,
+      'RankId': 4,
       'Assignee': 'HR Recuirter'
     },
     {
@@ -17,9 +17,9 @@
       'Status': 'Face to Face',
       'qualification':'Bsc.IT',
       'Role': 'React Developer',
-      'Priority': 'Low',
+      'Priority': 'High',
       'experience': 'Fresher',
-      'RankId': 1,
+      'RankId': 3,
       'Assignee': 'HR Recuirter'
     },
     {
@@ -28,9 +28,9 @@
       'Status': 'Technical',
       'qualification':'Bsc.IT',
       'Role': 'UI/UX Designer',
-      'Priority': 'Normal',
+      'Priority': 'High',
       'experience': '3',
-      'RankId': 1,
+      'RankId': 2,
       'Assignee': 'HR Recuirter'
     },
     {
