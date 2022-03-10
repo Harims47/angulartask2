@@ -1,0 +1,45 @@
+
+.e-tooltip-text{
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  font-size: small;
+}
+.e-card-header-title{
+  display: inherit !important;
+  font-weight: 500 !important;
+}
+.e-tooltip-text .pe-7s-info {
+  
+  color: #af5450!important;
+  font-size: 22px !important;
+  padding-right: 7px !important;
+  font-weight: 800 !important;
+}
+.e-tooltip-text .pe-7s-user{
+  
+  color: #912d9d !important;
+  font-size: 22px !important;
+  padding-right: 4px !important;
+  font-weight: 800 !important;
+}
+
+.e-text{
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+}
+
+.e-text .pe-7s-study{
+  color: black !important;
+  font-size: 22px !important;
+  padding-right: 7px !important;
+  font-weight: 800 !important;
+}
+.e-text .pe-7s-portfolio{
+  color: #0e38af !important;
+  font-size: 22px !important;
+  padding-right: 7px !important;
+  font-weight: 800 !important;
+}
+

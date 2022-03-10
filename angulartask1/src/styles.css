@@ -1,0 +1,133 @@
+
+@import './assets/css/main.css';
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-layouts/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-angular-kanban/styles/material.css';
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.kanban-overview.e-kanban .header-template-wrap {
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .kanban-overview.e-kanban .header-template-wrap .header-icon {
+  
+    margin-top: 3px;
+    width: 10%;
+  }
+  .kanban-overview.e-kanban .header-template-wrap .header-text {
+    margin-left: 15px;
+  }
+
+  .kanban-overview.e-kanban.e-rtl .header-template-wrap .header-text {
+    margin-right: 15px;
+  }
+
+  .kanban-overview.e-kanban.e-rtl .e-card-avatar {
+    left: 12px;
+    right: auto;
+  }
+  
+  .kanban-overview.e-kanban .e-card-avatar {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: gainsboro;
+    color: #6b6b6b;
+    border-radius: 50%;
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0px 0px 1px;
+  }
+  
+  .kanban-overview.e-kanban .Open::before {
+    content: '\e700';
+    color: #0251cc;
+    font-size: 16px;
+  }
+  
+  .kanban-overview.e-kanban .InProgress::before {
+    content: '\e703';
+    color: #ea9713;
+    font-size: 16px;
+  }
+  
+  .kanban-overview.e-kanban .e-image img {
+    background: #ececec;
+    border: 1px solid #c8c8c8;
+    border-radius: 50%;
+  }
+  
+  .kanban-overview.e-kanban .Review::before {
+    content: '\e701';
+    color: #8e4399;
+    font-size: 16px;
+  }
+  
+  .kanban-overview.e-kanban .Close::before {
+    content: '\e702';
+    color: #63ba3c;
+    font-size: 16px;
+  }
+  
+  .kanban-overview.e-kanban .e-card .e-card-tag-field {
+    background: #ececec;
+    color: #6b6b6b;
+    margin-right: 5px;
+    line-height: 1.1;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 4px;
+  }
+  
+  .kanban-overview.e-kanban .e-card-custom-footer {
+    display: flex;
+    padding: 0px 12px 12px;
+    line-height: 1;
+    height: 35px;
+  }
+  .kanban-overview.e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Low.e-selection:hover,
+  .kanban-overview.e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Low,
+  .kanban-overview.e-kanban.e-rtl .e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Low {
+      border-left: 3px solid #1F88E5;
+  }
+  .kanban-overview.e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.High.e-selection:hover,
+  .kanban-overview.e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.High,
+  .kanban-overview.e-kanban.e-rtl .e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.High {
+      border-left: 3px solid #673AB8;
+  }
+  .kanban-overview.e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Normal.e-selection:hover,
+  .kanban-overview.e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Normal,
+  .kanban-overview.e-kanban.e-rtl .e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Normal {
+      border-left: 3px solid #02897B;
+  }
+  .kanban-overview.e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Critical.e-selection:hover,
+  .kanban-overview.e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Critical,
+  .kanban-overview.e-kanban.e-rtl .e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card.Critical {
+      border-left: 3px solid #E64A19;
+  }
+  
+  .kanban-overview.e-kanban.e-rtl .e-kanban .e-kanban-content .e-content-row .e-content-cells .e-card-wrapper .e-card {
+    border-left: none;
+  }
+  .e-kanban .e-kanban-table .e-header-cells {
+    background-color: #254268 !important;
+    color: white;
+  }
+  .bg-mean-fruit {
+    background-image: linear-gradient( 120deg, #ffd400 0%, #ffbc00 100% ) !important;
+}
+
+.app-theme-white .app-header {
+  background: #e9eff5;
+}
