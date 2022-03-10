@@ -29,11 +29,7 @@ export class PagetwoComponent {
   };
   public dialogSettings: DialogSettingsModel = {
       fields: [
-          { text: 'ID', key: 'Title', type: 'TextBox' },
-          { key: 'Status', type: 'DropDown' },
-          { key: 'Assignee', type: 'DropDown' },
-          { key: 'experience', type: 'TextBox' },
-          { key: 'Role', type: 'TextArea' }
+          { text: 'ID', key: 'Title', type: 'TextBox' }, { key: 'Status', type: 'DropDown' }, { key: 'Assignee', type: 'DropDown' }, { key: 'experience', type: 'TextBox' }, { key: 'Role', type: 'TextArea' }
       ]
   };
   public swimlaneSettings: SwimlaneSettingsModel = { keyField: 'Assignee' };

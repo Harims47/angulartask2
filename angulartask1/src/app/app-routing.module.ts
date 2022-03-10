@@ -4,16 +4,7 @@ import { PageComponent } from './page/page.component';
 import { PagetwoComponent } from './pagetwo/pagetwo.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: PagetwoComponent
-
-  },
-  {
-    path: 'page',
-    component: PageComponent
-
-  },
+  { path: '', component: PagetwoComponent }, { path: 'page', component: PageComponent },
 ];
 
 @NgModule({
